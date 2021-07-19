@@ -1,5 +1,5 @@
 IPYNB :=Plot_CZI_lambda_scan.ipynb
-HTML  :=Plot_CZI_lambda_scan.html
+HTML  :=index.html
 PY    :=$(patsubst %.ipynb,%.py, $(IPYNB))
 PDF   :=$(patsubst %.ipynb,%.pdf, $(IPYNB))
 
